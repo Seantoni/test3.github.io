@@ -1,0 +1,99 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.header{
+
+  margin-top: 1px;
+  padding:15px 20px;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  font-size: 21px;
+  position: relative;
+  border-bottom: 1px solid black;
+
+}
+
+.menu{
+    padding-left: 10px;
+    font-size: 16px;
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    text-align: center;
+}
+
+#tienda{
+    border-bottom: 2px solid rgb(255, 0, 0);
+    text-align: center;
+    font-weight: 800;
+}
+
+#titulo{
+    padding: 10px 10px;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.intro{
+    margin-top: 20px;
+}
+
+#parrafo{
+    padding: 10px  10px ;
+    border-top: 1px solid rgb(231, 231, 231);}
+
+
+.carrousel{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    background-color: rgba(255, 255, 255, 0.115);
+    padding-bottom: 15px;
+    padding-top: 15px;
+    scrollbar-width: none;
+}
+
+
+
+img{
+    width: 210px;
+    border: 1px solid rgba(0, 0, 0, 0.072);
+    height: auto;
+    margin-left: 10px;
+    border-radius: 10%;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.131);;
+
+}
+
+.tittles{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#banner{
+    width: auto;
+    height: auto;
+    margin-left: 10px;
+    border-radius: 0%;
+
+
+}
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
