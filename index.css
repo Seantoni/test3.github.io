@@ -3,11 +3,13 @@ body{
 }
 .container{
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: auto;
 }
 
 .header{
-
+  overflow-y: hidden;
+  overflow-x: scroll;
+  white-space: nowrap;
   margin-top: 1px;
   padding:15px 20px;
   background: #ffffff;
@@ -15,6 +17,7 @@ body{
   font-size: 21px;
   position: relative;
   border-bottom: 1px solid black;
+ 
 
 }
 
@@ -25,6 +28,7 @@ body{
     color: rgb(0, 0, 0);
     font-weight: 100;
     text-align: center;
+ 
 }
 
 #tienda{
@@ -87,13 +91,5 @@ a{
     height: auto;
     margin-left: 10px;
     border-radius: 0%;
-
-
 }
 
-@media only screen and (max-width: 620px) {
-    /* For mobile phones: */
-    .menu, .main, .right {
-      width: 100%;
-    }
-  }
