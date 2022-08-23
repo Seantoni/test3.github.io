@@ -104,6 +104,11 @@ a{
 }
 
 .IGPOSTS{
+    margin-top: 10px;
+    width: auto;
+    height: 800px;
     margin-left: 10px;
-    border-radius: 5%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
 }
