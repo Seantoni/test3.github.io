@@ -1,47 +1,140 @@
+
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(0, 0, 0, 0.074);
-    padding: 0px;
+    background-color: rgba(12, 12, 12, 0.08);
+    font-family:Arial, Helvetica, sans-serif;
 }
 
-#logo{
+p {
+   margin-top: auto;
+   margin-bottom: auto;
+   text-align: left;
+}
+.headercontainer{
+    background-color: rgb(255, 255, 255);
+    height: 20px;
+    padding-bottom: 50px;
+
+}
+
+#menu{
+    margin-top:25px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.menu{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.banner_container{
+    display: flex;
+    justify-content: center;
+    height: 270px;
+}
+
+#banner{
+    width: 1300px;
+    height: 300px;
+    object-fit:cover;
+    border: 2px solid white;
+    border-radius: 5%;
+}
+
+.top3_items{
+  display: flex;
+  justify-content: center;
+}
+.item_image{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px 10px 10px;
+}
+
+.carousel_container{
+    display: flex;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+    scrollbar-width: none;
+}
+.carousel_container::-webkit-scrollbar {
+    display: none;
+}
+.carrusel_items{
+    padding: 5px;
+    border-radius: 5%;
+}
+
+#carousel_image{
+    height: 150px;
+    width: 350px;
+    object-fit:cover;
+}
+
+.text_price_field{
+    display: flex;
+}
+.pricenow_after{
+    margin-top: 10px;
+    display: flex;
+    font-size: 10px;
+}
+
+.pricenow{
+    overflow: hidden;
+    padding-left: 10px;
     font-weight: 800;
+    align-items: center;
+    text-align: left;
+    width: auto;
+    height: 50px;
+    font-size: 30px;
 }
 
-.intro{
-    margin-top: 20px;
-}
-
-#titulo{
-    font-weight: 800;
+.priceafter{
+    padding-left: 10px;
+    text-align: center;
+    text-decoration: line-through;
+    width: 50px;
+    height: 50px;
     font-size: 21px;
 }
 
 
-.card2{
-    width: 250px;
-    flex-wrap: nowrap;
-}
-
-.container_area2{
-    display: flex;
-}
-
-.contenedor{
-    display: flex;
-    overflow-x: scroll;
-    margin: 10px;
-   
-}
-
-img{
-    width: 200px;
-}
-
-.carrusel{
-    width: 200px;
-    margin: 10px;
+.texto{
+    padding: 5px;
     text-align: center;
-    border: 2px solid rgb(200, 46, 46, 0,11);
-    
+    width: 100%;
+    font-size: 0.875em;
+}
+
+#text_title{
+    font-weight: 800;
+}
+
+
+.item_container{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding-bottom: 5px;
+    background-color: azure;
+    border-radius: 5%;
+    width: auto;
+}
+
+@media only screen and (max-width: 600px){
+
+    #banner{
+        width: 900px;
+        height: 250px;
+    }
+
+}
+
+h3{
+    font-size: 21px;
+    margin-bottom: 10px;
 }
